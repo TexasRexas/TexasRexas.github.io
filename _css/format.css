@@ -1,56 +1,53 @@
-/* 1. Base page - dark wall */
+
 .graffiti-wall {
   background-color: #0f0f0f;
   color: #e8e8e8;
   font-family: Arial, sans-serif;
 }
 
-/* 2. Title - spray paint pop */
+
 .graffiti-title {
   color: #ff2e63;
   letter-spacing: 2px;
 }
 
-/* 3. Nav container */
+
 .graffiti-nav {
   background-color: #1a1a1a;
   padding: 0.5rem;
 }
 
-/* 4. Nav links - neon contrast */
 .graffiti-link {
   color: #00fff7;
   text-decoration: none;
   margin-right: 1rem;
 }
 
-/* 5. Hover effect - color flip */
+
 .graffiti-link:hover {
   color: #ff2e63;
 }
 
-/* 6. Paragraph text - muted spray fade */
+
 .graffiti-text {
   color: #cfcfcf;
 }
 
-/* 7. Accent highlight (optional use) */
+
 .graffiti-accent {
   color: #39ff14;
 }
 
-/* 8. Section spacing */
 .graffiti-section {
   margin: 1.5rem;
 }
 
-/* 9. Divider line - paint streak */
+
 .graffiti-divider {
   border-bottom: 2px solid #ff2e63;
   margin: 1rem 0;
 }
 
-/* 10. List reset with cleaner look */
 .graffiti-list {
   list-style: none;
   padding: 0;
