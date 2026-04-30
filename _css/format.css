@@ -1,0 +1,85 @@
+.portfolio-graffiti-shell {
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+  color: #e6e6e6;
+  font-family: 'Courier New', monospace;
+}
+
+.header-tag-spray {
+  font-size: 2.5rem;
+  color: #ff2e63;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #00fff7;
+}
+
+.nav-stencil-link {
+  color: #00fff7;
+  text-decoration: none;
+  border-bottom: 2px dashed #00fff7;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-stencil-link:hover {
+  color: #ff2e63;
+  border-bottom-style: solid;
+}
+
+.project-card-ripped {
+background: #1f1f1f;
+border: 2px solid #ff2e63;
+padding: 1.5rem;
+transform: rotate(-1deg);
+box-shadow: 5px 5px 0 #000;
+}
+
+.project-title-glitch:hover {
+  color: #00fff7;
+  text-shadow: -2px 0 #ff2e63, 2px 0 #00fff7;
+}
+
+.sidebar-stickerbomb {
+  background: repeating-linear-gradient(
+    45deg,
+    #111,
+    #111 10px,
+    #1c1c1c 10px,
+    #1c1c1c 20px
+  );
+  border-right: 3px solid #00fff7;
+}
+
+.code-terminal-punk {
+  background: #000;
+  color: #39ff14;
+  font-family: 'Courier New', monospace;
+  padding: 1rem;
+  border-left: 4px solid #ff2e63;
+}
+
+.btn-anarchy {
+  background: transparent;
+  color: #ff2e63;
+  border: 2px solid #ff2e63;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-anarchy:hover {
+  background: #ff2e63;
+  color: #000;
+}
+
+.divider-paint-streak {
+  height: 4px;
+  background: linear-gradient(to right, #ff2e63, #00fff7);
+  margin: 2rem 0;
+}
+
+.footer-zine-style {
+  font-size: 0.8rem;
+  color: #999;
+  text-align: center;
+  border-top: 1px dashed #444;
+  padding-top: 1rem;
+}
