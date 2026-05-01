@@ -52,3 +52,127 @@
   list-style: none;
   padding: 0;
 }
+
+.clay-mascot-img {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+
+  width: 210px;
+  height: auto;
+
+  border: 2px solid #00fff7;
+  box-shadow: 3px 3px 0 #ff2e63;
+  background-color: #111;
+
+  z-index: 999;
+}
+
+.clay-mascot-text {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  max-width: 220px;
+  margin: 0;
+  padding: 10px;
+
+  background-color: rgba(15, 15, 15, 0.9);
+  color: #e6e6e6;
+
+  font-family: "Courier New", monospace;
+  font-size: 0.9rem;
+
+  border-left: 3px solid #ff2e63;
+  border-right: 3px solid #00fff7;
+
+  letter-spacing: 1px;
+  line-height: 1.4;
+
+  z-index: 999;
+}
+.ace-img {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+
+  width: auto;
+  height: 400px;
+
+  border: 2px solid #00fff7;
+  box-shadow: 3px 3px 0 #ff2e63;
+  background-color: #111;
+
+  z-index: 999;
+}
+
+.ace-text {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  max-width: 220px;
+  margin: 0;
+  padding: 10px;
+
+  background-color: rgba(15, 15, 15, 0.9);
+  color: #e6e6e6;
+
+  font-family: "Courier New", monospace;
+  font-size: 0.9rem;
+
+  border-left: 3px solid #ff2e63;
+  border-right: 3px solid #00fff7;
+
+  letter-spacing: 1px;
+  line-height: 1.4;
+
+  z-index: 999;
+}
+
+.graffiti-footer {
+  margin-top: 60px;
+  padding: 25px;
+  text-align: center;
+
+  background-color: #0f0f0f;
+  border-top: 3px dashed #ff2e63;
+}
+
+.footer-tag {
+  color: #aaa;
+  font-size: 0.85rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+.style-guide-link {
+  display: inline-block;
+  padding: 10px 16px;
+
+  color: #00fff7;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  border: 2px solid #00fff7;
+  background-color: transparent;
+
+  box-shadow:
+    3px 3px 0 #ff2e63,
+    -3px -3px 0 #39ff14;
+}
+
+.style-guide-link:hover {
+  background-color: #ff2e63;
+  color: #0f0f0f;
+
+  box-shadow:
+    4px 4px 0 #00fff7,
+    -4px -4px 0 #39ff14;
+
+  transition: 0.2s ease;
+}
